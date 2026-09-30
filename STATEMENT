@@ -1,0 +1,93 @@
+# 📄 Project Statement
+
+## Project Title
+
+**Mini Statement Bank**
+
+## Problem Statement
+
+Develop a Python-based banking application that allows users to manage basic bank account operations and view their mini statement.
+
+The system should allow a user to create an account, deposit money, withdraw money, check the available balance, and view the transaction history.
+
+## Objectives
+
+The main objectives of this project are:
+
+1. To create a simple banking management system using Python.
+2. To provide basic banking operations.
+3. To maintain account information.
+4. To record deposit and withdrawal transactions.
+5. To display a mini statement to the user.
+6. To store data permanently using a JSON file.
+7. To understand the practical use of Python programming concepts.
+
+## Functional Requirements
+
+### 1. Create Account
+
+The user can create a new bank account by entering the required information such as name and initial balance.
+
+### 2. Deposit Money
+
+The user can deposit money into an existing account. The deposited amount is added to the account balance and recorded as a transaction.
+
+### 3. Withdraw Money
+
+The user can withdraw money from the account if sufficient balance is available. The withdrawal is recorded in the transaction history.
+
+### 4. Check Balance
+
+The user can check the current balance available in their bank account.
+
+### 5. Mini Statement
+
+The system displays the account's recent transactions, including:
+
+* Transaction type
+* Amount
+* Date
+* Time
+* Updated balance
+
+### 6. Data Storage
+
+Account details and transaction information are stored in a JSON file so that the information is not lost when the program is closed.
+
+## Input
+
+The system accepts inputs such as:
+
+* Customer name
+* Account number
+* Deposit amount
+* Withdrawal amount
+* Menu choice
+
+## Output
+
+The system displays:
+
+* Account details
+* Current balance
+* Deposit confirmation
+* Withdrawal confirmation
+* Mini statement
+* Transaction date and time
+
+## Technologies
+
+The project is developed using:
+
+* Python 3
+* JSON file handling
+* Object-Oriented Programming
+* `datetime`
+* `random`
+* `os`
+
+## Conclusion
+
+The Mini Statement Bank project provides a simple way to understand how a real-world banking system can be implemented using Python. It combines functions, classes, file handling, conditional statements, and data storage to create a basic banking application.
+
+This project can be further improved by adding authentication, fund transfers, database connectivity, and a graphical user interface.
