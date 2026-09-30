@@ -1,0 +1,11 @@
+from menu import show_menu
+
+def main():
+    print("=" *35)
+    print("MINI STATEMENT BANK")
+    print("=" *35)
+
+    show_menu()
+
+if __name__ == "__main__":
+    main()
